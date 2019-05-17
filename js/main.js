@@ -2,6 +2,8 @@
 Below is using the TweenMax library.
 I am also using the perlin library to help with the automovement of the animation when no mouse or touch is detected 
 */
+var audioplay = new Audio('audio/bubbles.mp3');
+
 function createParticle (x, y) {
 	
   var size = Math.random() * 50 + 10;
@@ -77,14 +79,14 @@ let random = 0;
 	requestAnimationFrame(render);
 }
 
-
+// When the mouse is being moved
 function onMouseMove(e) {
+ // Get the x and y coordinates
  var x = e.clientX;
  var y = e.clientY;
   createParticle(x, y);
   changeBackground(x,y);
   lastMove = Date.now();
-
   
 }
 
@@ -95,12 +97,36 @@ function ontouchmove(e){
  
  createParticle(x, y);
  changeBackground(x,y);
- lastMove = Date.now();	
+ //Save the last move time
+ lastMove = Date.now();
+ 	
+}
+
+function ontouchstart(){
 	
+	playAudio();
+}
+
+function ontouchend(){
+	
+	audioplay.pause();
+}
+
+function playAudio(){
+	
+  TweenMax.to("div",1,{repeat:-1,
+    onStart:function(){
+		
+		audioplay.play();	
+		
+		}
+	})	
 }
 
 window.addEventListener('mousemove', onMouseMove);
 window.addEventListener('touchmove', ontouchmove);
+window.addEventListener('touchstart', ontouchstart);
+window.addEventListener('touchend', ontouchend);
 requestAnimationFrame(render);
 
 
