@@ -6,4 +6,4 @@ In order to automate the mouse movement, the Perlin library is used, which can b
 
 To see a demo of the project in action please click [here](http://oliverbcurtis.co.uk/codeJam2019/)
 
-There are other great libraries to consider if you're interested in projects like this, one being the [sketch.js library](https://github.com/soulwire/sketch.js)
+There are other great libraries to consider if you're interested in projects like this, one being [sketch.js](https://github.com/soulwire/sketch.js)
