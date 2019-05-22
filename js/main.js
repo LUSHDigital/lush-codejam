@@ -3,6 +3,10 @@ Below is using the TweenMax library.
 I am also using the perlin library to help with the automovement of the animation when no mouse or touch is detected 
 */
 var audioplay = new Audio('audio/bubbles.mp3');
+var playSoundEffects = true;
+let lastMove = 0;
+var lastmousex=-1; 
+var lastmousey=-1;
 
 function createParticle (x, y) {
 	
@@ -46,7 +50,6 @@ function changeBackground(x,y){
 	
 }
 
-let lastMove = 0;
 
 function render (a) {
 
@@ -95,37 +98,62 @@ function ontouchmove(e){
  var x = event.touches[0].clientX;
  var y = event.touches[0].clientY;
  
- createParticle(x, y);
+ createParticle(x,y);
  changeBackground(x,y);
  //Save the last move time
  lastMove = Date.now();
+ 
+ playAudio(x,y);
  	
-}
-
-function ontouchstart(){
-	
-	playAudio();
 }
 
 function ontouchend(){
 	
 	audioplay.pause();
+	playSoundEffects = true;
 }
 
-function playAudio(){
+
+
+function playAudio(x,y){
 	
-  TweenMax.to("div",1,{repeat:-1,
-    onStart:function(){
+	//Math.abs returns the result of x - lastmousex etc
+	var movementX=Math.abs(x-lastmousex);
+    var movementY=Math.abs(y-lastmousey);
+    var movement=Math.sqrt(movementX*movementX+movementY*movementY);
+	
+	var speed=10*movement;//current speed	
+	var roundedSpeed = Math.round(speed);
+
+	if(roundedSpeed > 90){
 		
-		audioplay.play();	
+		audioplay.playbackRate = 2.0;
+		console.log("2x normal speed = Fast Bubbles!");
 		
-		}
-	})	
+	}else if(roundedSpeed >30 && roundedSpeed <= 90){
+		
+		audioplay.playbackRate = 1.0;
+		console.log("1x normal speed = Normal Bubbles!");
+		
+	}else{
+		
+		audioplay.playbackRate = 0.5;
+		console.log("0.5x normal speed = Slow Bubbles!");
+	}
+
+	if(playSoundEffects){
+
+	  audioplay.play();
+      playSoundEffects = false;
+   }
+
+	lastmousex = x;
+	lastmousey = y;
+			
 }
 
 window.addEventListener('mousemove', onMouseMove);
 window.addEventListener('touchmove', ontouchmove);
-window.addEventListener('touchstart', ontouchstart);
 window.addEventListener('touchend', ontouchend);
 requestAnimationFrame(render);
 
