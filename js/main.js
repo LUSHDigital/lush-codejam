@@ -143,6 +143,7 @@ function playAudio(x,y){
 
 	if(playSoundEffects){
 
+	  audioplay.loop = true;
 	  audioplay.play();
       playSoundEffects = false;
    }
