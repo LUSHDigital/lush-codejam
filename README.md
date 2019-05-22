@@ -1,4 +1,4 @@
-The following project has been created to demonstrate a desirable output of the Creative Programming code jam hosted by LUSH Digital.
+The following project has been created to demonstrate a desirable output of the Creative Programming Code Jam hosted by LUSH Digital.
 
 This small project uses the TweenMax library found [here](https://greensock.com/tweenmax), which enables animation found within the project. 
 
