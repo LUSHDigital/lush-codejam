@@ -4,7 +4,7 @@ The following repo was created to store all the results from the first Lush Code
 
 There were 4 teams working on their own unique solution to an abstract Creative Programming scenario.
 
-As a goal of Creative Programming is to create something expressive instead of something functional, we encouraged students to build something that had a Lush aspect to it which invoked some sort of emotion through sound, visuals etc.
+As a goal of Creative Programming is to create something expressive instead of something functional, we encouraged students to build something that had a Lush feel to it, which invoked some sort of emotion through sound, visuals etc.
 
 A simple [example](https://github.com/ollyc2015/CodeJam2019/tree/master/ExampleProject/) project was created to guide the students, as many of the students had little or no experience with Creative Programming.
 
