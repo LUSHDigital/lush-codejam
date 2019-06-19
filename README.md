@@ -10,10 +10,10 @@ A simple [example](https://github.com/ollyc2015/CodeJam2019/tree/master/ExampleP
 
 Please feel free to explore all the projects created by the students
 
-Team 1 
+[Team 1](https://github.com/ollyc2015/CodeJam2019/tree/master/Team1)
 
-Team 2 
+[Team 2](https://github.com/ollyc2015/CodeJam2019/tree/master/Team2)
 
-Team 3
+[Team 3](https://github.com/ollyc2015/CodeJam2019/tree/master/Team3)
 
-Team 4
+[Team 4](https://github.com/ollyc2015/CodeJam2019/tree/master/Team4)
