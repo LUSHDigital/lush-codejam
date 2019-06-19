@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello Web - Processing.js Test</title>
+    <script src="processing.js"></script>
+</head>
+<body>
+    <h1>Processing.js Test</h1>
+    <p>This is my first Processing.js web-based sketch:</p>
+	
+	<script type="text/processing" data-processing-target="processing-canvas">
+		int time = 0;
+
+		void setup(){
+		  size(600, 600);
+		  noFill();
+		  stroke(255);
+		  colorMode(HSB, 360); 
+		}
+
+		void draw(){
+		  background(0);
+		  for(int i = 0; i < 360; i += 1){
+		  //for(int i = 360; i >= 0; i--){
+			float x = cos(radians(i)) * 100 + width / 2;
+			float y = sin(radians(i)) * 100 + height / 2;
+			float w = cos(radians(time + i)) * 200;
+			w = abs(w);
+			int hue = i%30;
+			stroke(hue, 360, 360);   
+			fill(hue,360,360,100);
+			ellipse(x, y, w, w);
+		  }
+		  time++;
+		}
+	</script>
+	
+	<canvas id="processing-canvas"> </canvas>
+</body>
+</html>

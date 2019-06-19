@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <style>
+        .grid-container {
+            display: inline-grid;
+            grid-template-columns: auto auto auto auto auto;
+        }</style>
+    <meta charset="UTF-8">
+    <title>Lush</title>
+</head>
+<body style="background-color:#000033;">
+
+<button onclick="insertFunction('random')">random</button>
+<button onclick="insertFunction('line')">line</button>
+<button onclick="insertFunction('lonely')">lonely</button>
+<button style="background-color: deeppink" onclick="setCol(colours1)">Harajuku</button>
+<button style="background-color: cornsilk" onclick="setCol(colours2)">Calavers</button>
+<button style="background-color: hotpink" onclick="setCol(pinks)">Think Pink</button>
+<button style="background-color: yellow" onclick="setCol(honey)">Honey</button>
+<button style="background-color: #dbdacb" onclick="setCol(marsh)">Marshmallow</button>
+<div class="grid-container">
+    <div class="grid-item">
+        <div class="slidecontainer">
+            <p style="color:#F9F9F9"> Set Size</p>
+            <input type="range" min="1" max="100" value="10" class="slider" id="setSize">
+        </div>
+    </div>
+    <div class="grid-item">
+        <div class="slidecontainer">
+            <p style="color:#F9F9F9"> Set Gap</p>
+            <input type="range" min="1" max="90" value="16" class="slider" id="setGap">
+        </div>
+    </div>
+    <div class="grid-item">
+        <div class="slidecontainer">
+            <p style="color:#F9F9F9">Width</p>
+            <input type="range" min="10" max="250" value="110" class="slider" id="setWidth">
+        </div>
+
+    </div>
+    <div class="grid-item">
+        <div class="slidecontainer">
+            <p style="color:#F9F9F9">Height</p>
+            <input type="range" min="10" max="150" value="50" class="slider" id="setHeight">
+        </div>
+
+    </div>
+    <div class="grid-item">
+        <div class="slidecontainer">
+            <p style="color:#F9F9F9">Speed</p>
+            <input type="range" min="10" max="1000" value="100" class="slider" id="setSpeed">
+        </div>
+
+    </div>
+</div>
+<canvas id="myCanvas" width="5000" height="5000"></canvas>
+<script src="main.js"></script>
+</body>
+</html>

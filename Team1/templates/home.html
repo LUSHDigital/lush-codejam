@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+ <style>
+        .card {
+          padding: 10px 15px;
+          font-size: 15px;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+          color: #fff;
+          background-color: #4CAF50;
+          border: none;
+          border-radius: 15px;
+          box-shadow: 0 9px #999;
+        }
+
+        .card:hover {background-color: #ffffff}
+
+        .card:active {
+          background-color: #ffffff;
+          box-shadow: 0 5px #666;
+          transform: translateY(4px);
+        }
+
+        .col-3 {
+            margin-top: 1em;
+        }
+        </style>
+{% extends "layout.html" %}
+{% block header %}
+{% endblock header %}
+{% block fullContent %}
+    <h2 style="color:#000000;text-align:center; position:center;
+    font-weight:bold; font-family:Comic Sans MS, cursive, sans-serif;
+    font-size: 55px;margin-top: 1em; margin-bottom: 1em;">#LUSHFALLS</h2>
+	<div class="container" >
+		<div class="row" >
+			{% for i in images %}
+			<div class="col-3" >
+				<a href="{{ url_for('animation') }}?key={{ i[0] }}" >
+					<img class="card-img-top" src="{{ i[1] }}" alt="Card image cap">
+					<div class="card" style="width:100%">
+						<div class="card-body">
+							<h4 class="card-title" style="color:#000000;text-align:center; position:center;
+                                font-family:Comic Sans MS, cursive, sans-serif;
+                                font-weight:bold; font-size: 15px;">{{ i[0] }}</h4>
+							<p class="card-text">
+						</div>
+					</div>
+				</a>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+{% endblock fullContent%}
