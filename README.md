@@ -8,7 +8,7 @@ As a goal of Creative Programming is to create something expressive instead of s
 
 A simple [example](https://github.com/ollyc2015/CodeJam2019/tree/master/ExampleProject/) project was created to guide the students as many of the students has little to no experience with Creative Programming.
 
-Please feel free to explore all the projects created by the students
+Please feel free to explore all the projects created by the students:
 
 [Team 1](https://github.com/ollyc2015/CodeJam2019/tree/master/Team1)
 
