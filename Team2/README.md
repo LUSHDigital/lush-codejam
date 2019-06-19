@@ -12,7 +12,7 @@ You will be presented with three different bath bombs which represent different 
 
 The idea is to render an image that represents the type of scent given off by each bath bomb.
 
-Select a bath bomb and watch the image render render in using a creative approch. 
+Select a bath bomb and watch the image render in, using a creative approch. 
 
 To go back to the bath bomb selection, simply refresh the page.
 
