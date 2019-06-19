@@ -3,6 +3,8 @@ Below is using the TweenMax library.
 I am also using the perlin library to help with the automovement of the animation when no mouse or touch is detected 
 */
 var audioplay = new Audio('audio/bubbles.mp3');
+audioplay.preload = "auto";
+
 var playSoundEffects = true;
 let lastMove = 0;
 var lastmousex=-1; 
@@ -63,7 +65,6 @@ let random = 0;
 	if (Date.now() - lastMove > 500) {
 
 	    const s = 0.001 * (speed.value / 100);
-	
 		const noiseX = (noise.simplex3(1, 0, a * s) + 1) / 2;
 		const noiseY = (noise.simplex3(11, 0, a * s) + 1) / 2;
 		
