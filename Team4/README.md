@@ -7,7 +7,7 @@ JavaScript program which sends ellipse down the screen - gets bigger and bigger!
 
 This tutorial assumes the user is using WAMP server.
 
-Place the project inside the www folder of your WAMP server and make sure the server is running.
+Place the project inside the `www` folder of your WAMP server and make sure the server is running.
 
 Open up web a browser and type http://localhost/Team4/
 
