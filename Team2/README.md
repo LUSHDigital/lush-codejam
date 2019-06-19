@@ -6,6 +6,10 @@ Place the project inside the www folder of your WAMP server and make sure the se
 
 Open up web browers and type http://localhost/Team2/Bath%20Bomb%20Selector/
 
-Select bath bomb and watch processing render the image.
+You will be presented with three different bath bombs which represent different scents - from left to right; Fresh, Honey, Sweet.
+
+The idea is to render an image that represents the type of scent given off by the bath bomb.
+
+Select a bath bomb and watch processing render the image. 
 
 To go back to the bath bomb selection, simply refresh the page.
