@@ -10,4 +10,6 @@ This tutorial assumes the user is using WAMP server.
 
 Place the project inside the www folder of your WAMP server and make sure the server is running. 
 
-Open up web browers and type http://localhost/Team3/
+Open up a web browser and type http://localhost/Team3/
+
+
