@@ -1,6 +1,6 @@
 **LUSH Digital Code Jam 2019** 
 
-The following repo was created to store all the results from the first Lush Digital Code Jam held from the 12-13th June 2019 in association with Bournemouth University (BU). Special Thanks to [George Corney](https://github.com/haxiomic) for being our guest speaker and helping to guide the students on both days of the event along with [myself](https://github.com/ollyc2015) and [James Ash](https://github.com/jaxfire). Also, thanks to Dr. Gernot Liebchen and [Dr. Shahin Rostami](https://github.com/shahinrostami) for facilitating the event between Lush Digital and BU.
+The following repo was created to store all the results from the first Lush Digital Code Jam held from the 12-13th June 2019 in association with Bournemouth University (BU). Special Thanks to [George Corney](https://github.com/haxiomic) for being our guest speaker and helping to guide the students on both days of the event along with [myself](https://github.com/ollyc2015) and [James Ash](https://github.com/jaxfire). Also, thanks to [Dr. Gernot Liebchen](https://github.com/gliebchen) and [Dr. Shahin Rostami](https://github.com/shahinrostami) for facilitating the event between Lush Digital and BU.
 
 There were 4 teams working on their own unique solution to an abstract Creative Programming scenario.
 
