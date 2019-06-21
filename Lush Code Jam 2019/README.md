@@ -10,10 +10,10 @@ A simple [example](https://github.com/ollyc2015/lush-codejam/tree/master/Lush%20
 
 Please feel free to explore all the projects created by the students and congratulations to Teams 2 & 3, that were selected as winners by the Lush Tech R&D team:
 
-[Team 1](https://github.com/ollyc2015/lush-codejam/tree/master/Lush%20Code%20Jam%202019/Team1)
+[Team 1](https://github.com/LUSHDigital/lush-codejam/tree/master/Lush%20Code%20Jam%202019/Team1)
 
-[Team 2](https://github.com/ollyc2015/lush-codejam/tree/master/Lush%20Code%20Jam%202019/Team2)
+[Team 2](https://github.com/LUSHDigital/lush-codejam/tree/master/Lush%20Code%20Jam%202019/Team2)
 
-[Team 3](https://github.com/ollyc2015/lush-codejam/tree/master/Lush%20Code%20Jam%202019/Team3)
+[Team 3](https://github.com/LUSHDigital/lush-codejam/tree/master/Lush%20Code%20Jam%202019/Team3)
 
-[Team 4](https://github.com/ollyc2015/lush-codejam/tree/master/Lush%20Code%20Jam%202019/Team4)
+[Team 4](https://github.com/LUSHDigital/lush-codejam/tree/master/Lush%20Code%20Jam%202019/Team4)
