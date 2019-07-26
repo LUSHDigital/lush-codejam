@@ -8,7 +8,7 @@ Placement students included
 
 [Joshua Mugglestone](https://github.com/Jo3115)  
 
-Working over a two-week sprint, a lot of success was achieved which can be viewed below. Download the file and inside the folder you can find a read-me file which will explain how to build and run the respective project.
+Working over a two-week sprint, a lot of success was achieved which can be viewed below. (Download the desired project and inside the folder you can find a read-me file which will explain how to build and run the project.)
 
 [Week 1](https://drive.google.com/open?id=1dQNzwaRR77C3sq9QHjX4I9eoX9Qgxe9k)
 
